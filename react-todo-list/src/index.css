@@ -26,26 +26,11 @@ code {
 	align-items: center;
 }
 
-#to-do-array{
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#to-do-array li{
-	text-align: center;
-	font-size: 18px;
-	line-height: 50px;
-	width: 600px;
-	min-height: 50px;
-	margin-bottom: 10px;
-	height: fit-content;
+#to-do-wrapper li{
 	list-style-type: none;
-	padding: 0;
-	background-color: #EFB0A1;
-	border-radius: 4px;
 }
 
-#to-do-array :hover{
+#todo-listitem :hover{
 	transform: scale(1.05);
 }
 
@@ -68,4 +53,24 @@ code {
 
 #add-button:hover{
 	cursor: pointer;
+}
+
+#delete-icon{
+	display: inline-block;
+	align-items: right;
+}
+
+#todo-listitems-wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 18px;
+	line-height: 50px;
+	width: 600px;
+	min-height: 50px;
+	margin-bottom: 10px;
+	height: fit-content;
+	padding: 0;
+	background-color: #EFB0A1;
+	border-radius: 4px;
 }
